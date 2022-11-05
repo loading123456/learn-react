@@ -8,7 +8,6 @@ interface IDefaultLayoutProps {
 export const DefaultLayout: FC<IDefaultLayoutProps> = ({ children }) => {
     return (
         <>
-            DefaultLayout
             <Header></Header>
             {children}
         </>

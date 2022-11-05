@@ -1,5 +1,13 @@
 @import 'normalize.css';
-
+:root{
+    --default-header-height: 50px
+}
 .App{
     background-color: aquamarine;
+}
+
+button, input [tabindex]{
+    border: none;
+    outline: none;
+
 }

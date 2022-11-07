@@ -1,0 +1,15 @@
+.wrapper {
+    margin-bottom: 10px;
+    border-bottom: solid 2px;
+    background-color: #ccc;
+    height: 30px;
+    position: relative;
+    text-align: left;
+    justify-content: center;
+    
+    .content{
+        
+        font-size: 20px;
+        width: 100px;
+    }
+}

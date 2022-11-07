@@ -1,0 +1,41 @@
+
+.wrapper{
+    
+    text-align: center;
+
+    .title{
+        font-size: 30px;
+        font-weight: 900;
+        margin-bottom: 40px;
+    }
+    .input{
+        width: 25%;
+        height: 30px;
+        border: none;
+        border-radius: 5px;
+    }
+    .add-btn{
+        margin-left: 10px;
+        width: 50px;
+        height: 30px;
+        border-radius: 5px;
+    }
+    .todo-list{
+        margin: auto;
+        margin-top: 50px;
+        width: 30%;
+    }
+    .time{
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        position: fixed;
+        right: 75px;
+        top:75px;
+        background-color: aquamarine;
+        border-radius: 25px;
+        font-size: 25px;
+        text-align: center;
+    }
+
+}

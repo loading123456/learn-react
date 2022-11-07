@@ -1,10 +1,12 @@
 @import 'normalize.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root{
     --default-header-height: 50px
 }
-.App{
-    background-color: aquamarine;
-}
+
 
 button, input [tabindex]{
     border: none;

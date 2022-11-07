@@ -1,0 +1,73 @@
+body {
+    background-color: whitesmoke;
+}
+.wrapper {
+    margin-top: 20%;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+    flex-direction: column;
+    text-align: center;
+    .title {
+        font-size: x-large;
+        font-weight: 900;
+        margin-bottom: 40px;
+    }
+    label {
+        text-align: left;
+        font-size: medium;
+        font-weight: 500;
+        margin-left: 5px;
+        margin-bottom: 5px;
+    }
+    input {
+        height: 35px;
+        margin: auto;
+        margin-bottom: 10px;
+        font-size: medium;
+        width: 90%;
+        border-radius: 15px;
+        border: none;
+        outline-style: none;
+
+        &:focus-within {
+            outline-style: solid;
+            outline-color: rgb(224, 157, 33);
+        }
+    }
+    .save-password {
+        width: 100%;
+        align-content: center;
+        text-align: center;
+        // display: flex;
+        // flex-direction: row;
+
+        label {
+            position:relative;
+            justify-content: center;
+            display: block;
+            margin-left: 35px;
+            margin-bottom: 40px;
+            input {
+                width: 17px;
+                height: 17px;
+                outline-style: none;
+                vertical-align:top;
+                position: relative;
+            }
+            span{
+                opacity: 0.7;
+            }
+        }
+    }
+
+    .login-btn {
+        margin: auto;
+        margin-bottom: 30px;
+        background-image: linear-gradient(rgb(40, 230, 40), yellow);
+        height: 40px;
+        width: 70%;
+        border-radius: 15px;
+    }
+}
